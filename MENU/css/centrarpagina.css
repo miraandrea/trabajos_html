@@ -1,0 +1,15 @@
+@charset "utf-8";
+*{
+    font-family: arial;
+    font-size: 12px;
+}
+header{
+    width: 20%;
+    height: 1000%;
+    background-color: rgb(206, 193, 193);
+    padding: 10px;
+}
+.mover{
+    display: flex;
+    justify-content: center;
+}

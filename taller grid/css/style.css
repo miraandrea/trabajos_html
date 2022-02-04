@@ -1,0 +1,70 @@
+@charset "utf-8";
+
+body{
+    background: url("../images/fondo1.jpg");
+}
+.padre{
+    display: grid;
+    grid: 1fr 1fr 1fr / 1fr 1fr 1fr 1fr;
+    grid-gap: 10px;
+    height: 96vh;
+    width: 800px;
+    width:1024px;
+	margin:0 auto;
+}
+
+.bob{
+    overflow: hidden;
+    border: 3px solid rgb(255, 255, 255);
+    border-radius: 10px;
+}
+
+.bob img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.bob :hover{
+    filter:grayscale(90%) ;
+}
+.ima8{
+    grid-row-start: 1;
+    grid-row-end: 3 ;
+    grid-column-start: 1;
+    grid-column-end: 0 ;
+}
+
+.ima1{
+    grid-row-start: 3 ;
+    grid-row-end: 3 ;
+    grid-column-start: 1;
+    grid-column-end: 0 ;
+}
+
+.ima5{
+    grid-row-start: 1;
+    grid-row-end: 2 ;
+    grid-column-start: 2;
+    grid-column-end: 2 ;
+}
+
+.ima7{
+    grid-row-start: 2;
+    grid-row-end: 4 ;
+    grid-column-start: 2;
+    grid-column-end: 2 ;
+}
+
+.ima4{
+    grid-row-start: 1;
+    grid-row-end: 1 ;
+    grid-column-start: 3 ;
+    grid-column-end: 5 ;
+}
+
+.ima6{
+    grid-column-start: 3 ;
+    grid-column-end: 5 ;
+}

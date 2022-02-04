@@ -1,0 +1,196 @@
+@charset "UTF-8";
+*{
+    font-family: "karla";
+}
+.contenedor{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+.centrado{
+    color:#fff;
+    position: absolute;
+    top: 44%;
+    left: 52%;
+    transform: translate(-50%, -50%);
+}
+.centrado h1{
+    font-size: 152px;
+}
+#principal{
+	background-color:#FFF;
+	width:1300px;
+	margin:0 auto;
+}
+.principal2 {
+    width: 850px;
+    margin: 50px auto;
+    color: rgb(14, 13, 13);
+    padding: 35px;
+}
+.principal2 .derecha {
+    float: right;
+    margin-left: 15px;
+}
+.principal2 h1{
+    font-size: 30px;
+}
+.principal2 p{
+    font-size: 15px;
+}
+.principal3 {
+    width: 890px;
+    margin: 50px auto;
+    color: rgb(14, 13, 13);
+    padding: 35px;
+}
+.principal2 nav ul li a{
+	background-color: #fd4c5c;
+	color:#fff;
+	margin:30px -40px;
+    width: 50px;
+	padding:5px;
+	text-decoration:none;
+	border: radius 8px;
+}
+.principal3 .izquierda {
+    float: left;
+    margin-left: -15px;
+    margin-right: 125px;
+}
+.principal3 h1{
+    font-size: 30px;
+}
+.principal3 p{
+    font-size: 15px;
+}
+nav ul{
+	line-height:30px;
+    text-align: left;
+}
+
+nav ul li{
+	display:inline;
+    text-align: center;
+}
+
+.principal3 nav ul li a{
+	background-color: #fd4c5c;
+	color:#fff;
+	margin:30px -5px;
+    width: 50px;
+	padding:5px;
+	text-decoration:none;
+	border-radius:8px;
+}
+nav ul li a:hover{
+	text-decoration:underline;
+}
+.clear{
+	clear:both;
+}
+#color{
+    background-image: linear-gradient(#f86f6f, #f86f6f, #f86f6f, #fc0060,#c4004b,#f100a1);
+    background-clip:text;
+    -webkit-background-clip:text;
+    -moz-background-clip:text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent
+}
+.contenedor1{
+    position: relative;
+    display: inline-block;
+    text-align: left;
+}
+.centrado1{
+    color:#fff;
+    position: absolute;
+    top: 25%;
+    left: 70%;
+    transform: translate(-50%, -50%);
+}
+.centrado1 h1{
+    font-size: 50px;
+}
+.centrado1 p{
+    font-size: 15px;
+}
+.centrado1 nav ul li a{
+	background-color: #fd4c5c;
+	color:#fff;
+	margin:30px -40px;
+    width: 50px;
+	padding:5px;
+	text-decoration:none;
+	border-radius:8px;
+}
+#final nav ul{
+	background-color:#fd4c5c;
+	line-height:40px;
+}
+
+#final nav ul li{
+	display:inline;
+}
+
+#final nav ul li a{
+	color:#fff;
+	margin:10px 15px;
+	padding:8px;
+	text-decoration:none;
+	border-radius:8px;
+}
+#final1 {
+    color:#fff;
+    position: absolute;
+    top: 739px;
+    left: 30%;
+    transform: translate(-50%, -50%);
+}
+#final1 nav ul{
+	background-color:transparent;
+	line-height:40px;
+}
+#final2 {
+    color:#fff;
+    position: absolute;
+    top: 739px;
+    left: 55%;
+    transform: translate(-50%, -50%);
+}
+#final2 nav ul{
+	background-color:transparent;
+	line-height:40px;
+}
+#final3 {
+    color:#fff;
+    position: absolute;
+    top: 739px;
+    left: 80%;
+    transform: translate(-50%, -50%);
+}
+#final3 nav ul{
+	background-color:transparent;
+	line-height:40px;
+}
+#final{
+    background-color:#fd4c5c;
+	width:1300px;
+	margin:0 auto;
+}
+hr{
+    width: 84%;
+    background-color: #fff;
+    transform: translate(-5%);
+}
+#final4 {
+    color:#fff;
+    position: absolute;
+    top: 900px;
+    left: 80%;
+    transform: translate(-50%, -50%);
+}
+#final4 nav ul{
+	background-color:transparent;
+	line-height:40px;
+}
